@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 1rem
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+main {
+    height: 100vh;
+}
+
+.test {
+    height: 50vh;
+}
+
+main img {
+    width: 1500px;
+}
