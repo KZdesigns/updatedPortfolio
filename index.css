@@ -7,12 +7,49 @@ header {
     margin: 0 1rem
 }
 
-header h1 {
-    font-size: 5vw;
+.header-text {
+    margin-bottom: 2.5rem;
 }
 
-header p {
-    font-size: 1.5vw;
+
+/* header paragraph for responsive text */
+@media screen and (max-width: 768px) {
+    .text-is-size-3-mobile {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .text-is-size-2-tablet {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .text-is-size-1-desktop {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* header h1 for responsive text */
+@media screen and (max-width: 768px) {
+    .title-is-size-3-mobile {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .title-is-size-2-tablet {
+        font-size: 3rem !important;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .title-is-size-1-desktop {
+        font-size: 5rem !important;
+    }
 }
 
 main {
